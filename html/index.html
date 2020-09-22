@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GoLog.in</title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+</head>
+
+
+<body>
+<div class="container">	
+	<header>
+		<nav>
+			<ul> 
+				<li><a href="/index.html">Home</a> </li>
+				<li><a href="/courses.html">Courses</a> </li>
+				<li><a href="/about.html">About</a> </li>
+				<li><a href="/contact.html">Contact</a> </li>
+			</ul> 
+		</nav>
+	<div>
+		<img class="img-responsive image-resize" src="/image/golog.jpeg" />  
+	</div>
+ </header>
+	
+	<section id="main" class="boxed">
+			<p>This is Home page of <strong>GoLog.in</strong></p>
+       <div class="login-form boxed">
+	       <form action="/api/login" method="POST" id="loginForm">
+			   <label for="username">Username :</label>
+			   <input type="text" name="username" id="username" /><br/>
+					
+			   <label for="password">Password :</label>  
+			   <input type="password" name="password" id="password" /><br/>
+					
+			   <input type="checkbox" name="remember" id="remember">
+			   <label for="remember">Remember Me</label>
+				<br/>
+				  <div id="errorMsg"></div>
+
+				<br/>			   
+			   <input type="submit" name="loginbutton" value="Login"/>
+			   <input type="reset" name="cancelbutton" value="Cancel"/>
+			   </form>
+			   <div id= "logoutSection">
+				   <p>You are logged in.</p>
+				   <button id="logoutButton">Logout</button>
+				</div>
+		</div>
+		 <div id="results" class="boxed">
+			<button id="toggleButton">Hide</button>
+			<div id="resultList">
+			Here will display all the courses.
+		   </div>
+		</div>
+			</section>
+		
+	<footer id="foo">
+		&copy; 2020 GoLog.in
+	
+	</footer>
+</div>
+ 
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+
+</body>
+</html>
+
