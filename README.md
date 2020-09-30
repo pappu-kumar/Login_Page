@@ -1,4 +1,5 @@
 # Hi there, I am Pappu Kumar
+This is an Amazing Project.It will help a lot.
 
 ## About this project....
 ### it will take email_id &amp; password from user and verify it.After logedin it will request the data through my own API to local server and then in home page it will show some information about programming languages and after logout it will through in login page again.  #used:- html , css , javascript , D_Jango , API
@@ -9,3 +10,5 @@
 ![](https://github.com/pappu-kumar/Login_Page/blob/master/image/After%20login.jpg)
 ![](https://github.com/pappu-kumar/Login_Page/blob/master/image/css%20style.jpg)
 ![](https://github.com/pappu-kumar/Login_Page/blob/master/image/css%20style%202.jpg)
+
+
